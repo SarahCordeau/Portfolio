@@ -1,0 +1,25 @@
+<!--
+ *    Project:	Portfolio - Portfolio
+ *    Version:	1.0.0
+ *    Date:		15 mars 2016 21:17:08
+ *    Author:	Sarah 
+ *
+ *    Coded with Netbeans!
+-->
+
+<div class='content-carousel'>
+   <div class="marginAuto">
+      <div>
+         <carousel [interval]="myInterval" [noWrap]="noWrapSlides">
+            <slide *ngFor="#slide of slides">
+               <img src={{slide.url}}>
+
+               <div class="carousel-caption">
+                  <p>{{slide.title}}</p>
+               </div>
+            </slide>
+         </carousel>
+      </div>
+   </div>
+</div>
+

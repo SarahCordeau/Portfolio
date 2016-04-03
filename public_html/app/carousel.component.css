@@ -1,0 +1,27 @@
+
+/*
+ *    Project:	Portfolio - Portfolio
+ *    Version:	1.0.0
+ *    Date:		15 mars 2016 21:17:08
+ *    Author:	Sarah 
+ *
+ *    Coded with Netbeans!
+ */
+
+.content-carousel { padding: 2vh 0; }
+
+.marginAuto {
+   margin: 5vh 25vw;
+}
+
+carousel { 
+   height: 60vh; 
+}
+
+slide img {
+   object-fit: cover;
+   object-position: center;
+   height: 60vh;
+   width: 100%;
+}
+

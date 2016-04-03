@@ -1,0 +1,102 @@
+
+/*
+ *    Project:	Portfolio - Portfolio
+ *    Version:	1.0.0
+ *    Date:		15 mars 2016 21:17:08
+ *    Author:	Sarah 
+ *
+ *    Coded with Netbeans!
+ */
+
+.app {
+   width: 100%;
+   margin-left: 0;
+   margin-right: 0;
+   display: table;
+}
+
+.banner, router-outlet, footer { display: table-row; }
+
+router-outlet { position: absolute; }
+
+.row, .container-fluid, .navbar { margin: 0!important; }
+
+.main { margin: 0.5vh 0!important; }
+
+/* CSS BANNER */
+.banner {
+   height: 150px;
+   padding: 15px 0;
+   
+   background-color: #000; /*rgba(255, 148, 0, 0.5);*/
+   
+   z-index: 999;
+}
+
+.banner div:last-of-type { margin-bottom: 15px; }
+
+.banner_holder{
+   position: relative;
+   width: 100px;
+   height: 100px;
+   min-height: 70px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.banner_holderImage{
+   height: 100%;
+   position:relative;
+   margin-top: 15px;
+   
+   background:   url("../images/photo.png")no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+   border: 1px solid #FF9400;
+   border-radius: 100px;
+}
+
+.banner-text { margin-top: 15px; }
+
+.logo img { max-width: 2.5vw; }
+
+/**************/
+
+/* CSS LINK */
+
+li a {  font-weight: bold; }
+
+li a:hover, li a:active {
+   background-color: rgba(0, 255, 148, 0.3);
+   
+   cursor: pointer;
+}
+
+/**************/
+
+
+/* CSS FOOTER */
+
+.fixed-bottom{
+   bottom: 50px;
+   position: fixed;
+   right: 0;
+   left: 0;
+}
+
+.footer { 
+   height: 50px; 
+   margin-top: 1.5vh;
+   padding: 5px 0;
+}
+
+.footer p { margin: 5px 0; }
+
+.footer p img {
+   max-height: 30px;
+   width: auto;
+   vertical-align: center;
+}
+
+/**************/
